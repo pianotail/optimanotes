@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+
+
+
+
+/****************************************************
+for SmartPhones		/ iPhone6+ >> 736px /
+*****************************************************/
+@media only screen and (max-width:740px) {
+
+/* common
+-------------------------------------------------- *//*
+a:hover {
+	background: inherit !important;
+	color: inherit !important;
+}
+*/
+
+
+
+/* global_menu
+-------------------------------------------------- */
+#global_menu_wrap {
+	position: fixed;
+	background: rgba(0,0,0,0.5);
+}
+#global_menu {
+	top: 65px;
+}
+
+/* header
+-------------------------------------------------- */
+#header {
+	position: fixed;
+	background: rgba(255,255,255,0.9);
+}
+a.menu_button:hover {
+	border: inherit;
+}
+#header_inner {
+	width: 100%;
+	height: 100%;
+}
+#header_bottom {
+	padding: 85px 0 20px;
+}
+
+/* logo
+---------------------- */
+#logo_image {
+	position: static;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	margin: 0 0 0 20px;
+}
+#logo_image h1 {
+	line-height: 1;
+	font-size: 0;
+}
+#logo_image h1 a {
+	display: inline-block;
+}
+#logo_image h1 a img {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 118px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
